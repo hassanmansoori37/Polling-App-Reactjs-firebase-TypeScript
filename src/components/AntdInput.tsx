@@ -1,11 +1,11 @@
 
 import { Input } from 'antd';
 
- export const AntdInput = ({placeholder , type} : any ) => {
+ export const AntdInput = ({placeholder , type , onChange} : any ) => {
 
     return(
  
- <Input placeholder= {placeholder} type={type}/>
+ <Input placeholder= {placeholder} type={type} onChange={onChange}/>
 
     )
 
